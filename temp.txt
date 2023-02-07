@@ -1,0 +1,108 @@
+
+
+
+
+                Python (Programming Language) assessment
+            
+
+
+
+        Python (Programming Language) assessment Q15/15
+    
+
+In this code fragment, what will the values of c and d be equivalent to? In this code fragment, what will the values of c and d be equivalent to? 
+
+
+
+
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+c = a*b
+d = np.dot(a,b) import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+c = a*b
+d = np.dot(a,b) 
+
+
+
+
+
+
+
+
+c = [ a[0] * b[0],  a[1] * b[1], a[2] * b[2] ]
+
+                            d = sum(c)
+                        
+
+
+
+
+
+
+c = a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
+
+                            d = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+                        
+
+
+
+
+
+
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+                            d = sum(a) + sum(b)
+                        
+
+
+
+
+
+
+c = [ a[1] * b[1], a[2] * b[2], a[3] * b[3] ]
+                            d = sum(c)
+                        
+
+
+
+
+
+
+                    Something wrong with this question?
+                  
+
+                    Give feedback
+                
+
+
+
+
+
+
+                Current value: 15
+            
+
+
+
+
+
+
+Q15/15
+
+
+      01:29
+  
+
+      90 seconds remaining
+  
+
+
+
+
+    View results
+
+
+
