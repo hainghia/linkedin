@@ -2,14 +2,19 @@ root = true
 
 [*]
 charset = utf-8
-end_of_line = crlf
+end_of_line = lf
 indent_size = 4
 indent_style = space
 insert_final_newline = false
-max_line_length = 300
-tab_width = 2
+max_line_length = 500
+tab_width = 4
 
-[{*.htm,*.html,*.ng,*.sht,*.shtm,*.shtml}]
-tab_width = 2
+[{*.yaml,*.json}]
+indent_size = 2
+
+[*.sql]
+indent_size = 2
+
+[*.py]
 indent_size = 4
-
+max_line_length = 400
